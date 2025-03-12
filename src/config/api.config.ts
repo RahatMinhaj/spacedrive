@@ -6,8 +6,8 @@ import { apiConfigT } from "@/types";
 export const apiConfig: apiConfigT = {
   // The clientId and clientSecret are used to authenticate the user with Microsoft Graph API using OAuth. You would
   // not need to change anything here if you can authenticate with your personal Microsoft account with OneDrive International.
-  clientId: process.env.CLIENT_ID || "",
-  clientSecret: process.env.CLIENT_SECRET || "",
+  clientId: process.env.CLIENT_ID || "a5a38f5a-2f83-4c4f-a79a-6bd60a036e72",
+  clientSecret: process.env.CLIENT_SECRET || "5489d39c-7aa1-44f8-8b2f-39dbc0ebc7df",
   // Todo: check spelling
   postgressURL:
     process.env.POSTGRES_URL_NON_POOLING || process.env.POSTGRES_URL || "",
